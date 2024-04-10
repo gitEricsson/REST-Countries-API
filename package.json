@@ -1,0 +1,22 @@
+{
+  "name": "rest-countries-api",
+  "version": "1.0.0",
+  "description": "Countries App",
+  "main": "index.html",
+  "targets": {
+    "main": false
+  },
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.26.10"
+  },
+  "dependencies": {
+    "core-js": "^3.25.5",
+    "regenerator-runtime": "^0.13.10"
+  }
+}

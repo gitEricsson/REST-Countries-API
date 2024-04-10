@@ -1,0 +1,44 @@
+.spinner {
+  margin: 15rem auto;
+  text-align: center;
+  top: 50%;
+  height: 30vh;
+
+  svg {
+    height: 6rem;
+    width: 6rem;
+    fill: var(--color-mode-input);
+    animation: rotate 2s infinite linear;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.error {
+  > div {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.flex {
+  display: flex;
+  justify-content: center;
+}
+
+.hide {
+  display: none;
+}
+
+.hidden {
+  visibility: hidden;
+  opacity: 0;
+}

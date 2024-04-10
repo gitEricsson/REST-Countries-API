@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Nunito+Sans:400,600,700"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="src/sass/main.scss" />
+    <script type="module" defer src="src/js/controller.js"></script>
+
+    <title>REST Countries API</title>
+  </head>
+
+  <body class="">
+    <header>
+      <h1>Where in the world?</h1>
+      <div class="background__mode dark--mode">
+        <svg class="background__mode-icon">
+          <use href="src/img/icons.svg#icon-moon-outline"></use>
+        </svg>
+        <span class="background__mode-detail"> Dark Mode</span>
+      </div>
+
+      <div class="background__mode light--mode hide">
+        <svg class="background__mode-icon">
+          <use href="src/img/icons.svg#icon-moon-filled"></use>
+        </svg>
+        <span class="background__mode-detail"> Light Mode</span>
+      </div>
+    </header>
+
+    <main class="container">
+      <div class="query">
+        <div class="query-input">
+          <svg class="query-search__icon">
+            <use href="src/img/icons.svg#icon-search"></use>
+          </svg>
+
+          <form class="query-field">
+            <input
+              type="text"
+              class="query-field-form"
+              placeholder="Search for a country..."
+            />
+          </form>
+        </div>
+
+        <div class="dropdown">
+          <div class="dropdown-item">
+            <span>Filter by Region</span>
+            <svg class="dropdown-icon">
+              <use href="src/img/icons.svg#icon-dropdown"></use>
+            </svg>
+          </div>
+
+          <div class="dropdown-list">
+            <div class="dropdown-list-item">Africa</div>
+            <div class="dropdown-list-item">America</div>
+            <div class="dropdown-list-item">Asia</div>
+            <div class="dropdown-list-item">Europe</div>
+            <div class="dropdown-list-item">Oceania</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="countries">
+        <!-- <article class="country">
+              <a href="">
+          <img class="country__img" />
+          <div class="country__data">
+            <h3 class="country__name">COUNTRY</h3>
+            <p class="country__row">
+              Population: <span class="">6557578575</span>
+            </p>
+            <p class="country__row">Region: <span></span></p>
+            <p class="country__row">Capital: <span></span></p>
+          </div>
+        </article>
+        <article class="country">
+          <img class="country__img" />
+          <div class="country__data">
+            <h3 class="country__name">COUNTRY</h3>
+            <p class="country__row">Population:<span></span></p>
+            <p class="country__row">Region:<span></span></p>
+            <p class="country__row">Capital:<span></span></p>
+          </div>
+        </a>
+        </article> -->
+      </div>
+    </main>
+
+    <section class="clicked__country__container hide">
+      <!-- <div class="spinner">
+        <svg>
+          <use href="img/icons.svg#icon-loader"></use>
+        </svg>
+      </div> -->
+
+      <button class="back">
+        <svg class="arrow-icon">
+          <use href="src/img/icons.svg#icon-arrow-left"></use>
+        </svg>
+        Back
+      </button>
+
+      <div class="clicked__country">
+        <!-- <img class="clicked__country__img" />
+
+        <div class="clicked__country__data">
+          <h3 class="clicked__country__name">COUNTRY</h3>
+
+          <div>
+            <p class="clicked__country__row">
+              Native Name: <span>gfhkgkgl</span>
+            </p>
+            <p class="clicked__country__row">Population: <span></span></p>
+            <p class="clicked__country__row">Region: <span></span></p>
+            <p class="clicked__country__row">Sub Region: <span></span></p>
+            <p class="clicked__country__row">Capital: <span></span></p>
+            <p class="clicked__country__row">Top Level Domain: <span></span></p>
+            <p class="clicked__country__row">Currencies: <span></span></p>
+            <p class="clicked__country__row">Languages: <span></span></p>
+          </div>
+
+          <p class="clicked__country__row">
+            Border Countries:<span>
+              <button class="border__countries">France</button>
+              <button class="border__countries">Belgium</button>
+              <button class="border__countries">Nigeria</button>
+            </span>
+          </p>
+        </div> -->
+      </div>
+    </section>
+    <footer class="attribution">
+      Challenge by<a
+        href="https://www.frontendmentor.io?ref=challenge"
+        target="_blank"
+      >
+        Frontend Mentor</a
+      >. Coded by<a href="https://github.com/gitEricsson"> Ericsson Raphael</a>.
+    </footer>
+  </body>
+</html>
