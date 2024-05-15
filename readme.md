@@ -26,8 +26,8 @@ Users should be able to:
 - Click on a country to see more detailed information on a separate page
 - Click through to the border countries on the detail page
 - Toggle the color scheme between light and dark mode
-- A spinner functionality whilst fetching countries from API
-- Responsive Web design
+- See a spinner functionality whilst fetching countries from API
+- Interact with a Responsive Web design
 
 ### Screenshot
 
@@ -44,8 +44,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/gitEricsson/REST-Countries-API)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [Github Repo here](https://github.com/gitEricsson/REST-Countries-API)
+- Live Site URL: [Live site here](https://your-live-site-url.com)
 
 ## My process
 
