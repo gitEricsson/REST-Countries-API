@@ -61,7 +61,7 @@ Users should be able to:
 
 ## Author
 
-- Website - [Ericsson Raphael](https://www.your-site.com)
+- Website - [Ericsson Raphael](https://github.com/gitEricsson)
 - Frontend Mentor - [@ericsson](https://www.frontendmentor.io/profile/gitEricsson)
 - LinkedIn - [@ericsson](www.linkedin.com/in/ericssonraphael)
 - Gmail - [@ericsson](ericssonraphael@gmail.com)
