@@ -45,7 +45,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Github Repo here](https://github.com/gitEricsson/REST-Countries-API)
-- Live Site URL: [Live site here](https://your-live-site-url.com)
+- Live Site URL: [Live site here](https://ericsson-rest-countries-api.netlify.app/)
 
 ## My process
 
