@@ -54,7 +54,7 @@ Users should be able to:
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
-- CSS Grid
+- sass
 - Mobile-first workflow
 - Vanilla JavaScript
 - MVC Architecture
