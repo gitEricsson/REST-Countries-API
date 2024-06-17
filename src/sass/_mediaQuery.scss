@@ -2,6 +2,13 @@
   header {
     padding: 2rem 2rem;
   }
+
+  .error {
+    > p {
+      text-align: center;
+    }
+  }
+
   .container {
     padding: 0 2rem;
   }
